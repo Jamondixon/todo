@@ -16,6 +16,16 @@
       "id": 4,
       "title": "fourth Todo",
       "content": "this is my fourth todo"
+    },
+    {
+      "id": 5,
+      "title": "ANIMATE",
+      "content": "Learn to animate card flip"
+    },
+    {
+      "id": 6,
+      "title": "hi",
+      "content": "its here"
     }
   ]
 }

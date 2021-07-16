@@ -39,3 +39,10 @@ background-color: aquamarine;
   font-size: 6em;
   text-shadow: 3px 3px black;
 }
+
+.title {
+  color: rgb(210, 82, 107);
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 1px 1px black;
+  font-size: 1em;
+}

@@ -7,8 +7,8 @@ export default function TodoCard(props) {
     }
     return (
         <li className="todo-card">
-            <p>{props.todo.title}</p>
-            <p>{props.todo.content}</p>
+            <p className="title">{props.todo.title}</p>
+            <p lassName="content">{props.todo.content}</p>
             <button  onClick={handleClick} className="delete">Delete</button>
         </li>
     )
