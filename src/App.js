@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './App.css';
+import Header from './components/Header';
 import TodoContainer from './components/TodoContainer';
 import TodoForm from './components/TodoForm';
 
@@ -54,6 +55,7 @@ class App extends Component{
   render() {
     return (
       <div className="App">
+        <Header/>
         <TodoForm addTodo={this.addTodo}/>
         <TodoContainer removeTodo={this.removeTodo} todos={this.state.todos} />
       </div>
